@@ -1,0 +1,78 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+    
+.servicios {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+.inicio {
+    background: url('static/icon_img_position.png') center/cover no-repeat;
+    opacity: 0.5; /* Ajusta la transparencia aquí */
+    z-index: -1;
+}
+
+
+.inicio::before {
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+   
+}
+
+/* btn whatsapp */
+
+.btn-whatsapp {
+    text-align: center;
+    display: inline-block;
+    background-color: #25D366;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .btn-whatsapp:hover {
+    background-color: #128C7E;
+  }
+
+  .card-body {
+    background-color: white;
+    color: #D08E14;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 6px;
+  }
+
+  .card-body:hover {
+    background-color:  #000000;
+    color: white;
+    border: 4px solid #D08E14;
+  }
+
+  .btn-ver-mas {
+    text-align: center;
+    display: inline-block;
+    background-color: #D08E14;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .btn-ver-mas:hover {
+    background-color: white;
+    color: black;
+  }
