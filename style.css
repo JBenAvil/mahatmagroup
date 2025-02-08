@@ -12,6 +12,7 @@ html {
 .inicio {
     background: url('static/icon_img_position.png') center/cover no-repeat;
     z-index: -1;
+    opacity: 0.5;
 }
 
 
@@ -79,4 +80,11 @@ html {
     font-weight: 400;
     font-style: normal;
   }
+
+  .alfa-slab-one-regular {
+    font-family: "Alfa Slab One", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
   
